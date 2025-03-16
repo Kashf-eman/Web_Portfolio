@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+<div class="logo"><span>K</span>ashaf.</div>
+<ul class="navlist">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+<div id="menu-icon" class="fa-solid fa-bars"></div>
+
+    </header>
+
+
+<section id="home" class="home">
+<div class="home-content scroll-scale">
+    <h1>Hi! I'm Kashaf Eman</h1>
+    <div class="change-text">
+        <h3>And I'm</h3>
+        <h3>
+            <span class="word">Frontend&nbsp;Developer</span>
+            <span class="word">Web&nbsp;Developer</span>
+            <span class="word">Web&nbsp;Designer</span>
+        </h3>
+    </div>
+<p>I specialize in crafting visually appealling & responsive website 
+    using HTML, CSS, Javascript, jQuery & Bootstrap.My focus is on creating user-friendly,
+dynamic interface that look great & function seamlessly across all devices </p>
+
+<div class="info-box">
+    <div class="email-info">
+        <h5>Email :</h5>
+        <span>kashafe916@gmail.com</span>
+    </div>
+</div>
+
+<div class="btn-box">
+    <a href="#"id="download" download class="btn">Download CV</a>
+    <a href="#contact" class="btn">Contact Me!</a>
+</div>
+<!-- <div class="social-icon">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+</div> -->
+
+</div>
+<div class="home-img scroll-scale">
+    <div class="img-box">
+        <img src="img/person1.webp" alt="">
+    </div>
+<div class="liquid-shape">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#12f7ff" transform="translate(100 100)">
+        <animate attributeName="d"
+        dur="20000ms"
+        repeatCount="indefinite"
+        values="
+         M37,-55.9C50.5,-48.9,65.8,-43,68.4,-32.6C71,-22.2,61,-7.4,54.2,4.5C47.3,16.4,43.6,25.5,38.1,34.4C32.5,43.3,25.2,51.9,15,58.3C4.7,64.6,-8.3,68.6,-18.8,65.1C-29.3,61.5,-37.4,50.4,-49.7,40.6C-62.1,30.8,-78.8,22.3,-79.9,11.7C-81.1,1.2,-66.7,-11.4,-59.7,-27.5C-52.7,-43.7,-53.1,-63.4,-44.3,-72.5C-35.6,-81.7,-17.8,-80.2,-3,-75.5C11.8,-70.8,23.5,-62.8,37,-55.9Z; 
+         
+         M27.6,-44C35.3,-38.1,40.6,-29.5,50.7,-19.6C60.8,-9.6,75.7,1.7,75.2,11.3C74.6,21,58.6,29,46.6,37.3C34.6,45.7,26.6,54.5,17.1,56.6C7.5,58.7,-3.5,54.2,-18.2,53.7C-32.9,53.2,-51.2,56.7,-58.2,49.8C-65.3,42.8,-61.1,25.5,-59.7,10.8C-58.3,-3.9,-59.8,-15.9,-58.3,-29.8C-56.9,-43.7,-52.6,-59.5,-42.5,-64.2C-32.3,-68.9,-16.1,-62.6,-3.1,-57.8C10,-53,20,-49.8,27.6,-44Z;
+
+         M29.5,-47.2C40.4,-38.9,52.9,-34.4,58.6,-25.7C64.3,-17,63.1,-4,63.7,11C64.4,26,67,43.1,61.3,57.4C55.6,71.7,41.7,83.2,27.6,81.8C13.4,80.4,-0.9,66.2,-15.3,58.9C-29.6,51.5,-43.9,51,-57.5,44.6C-71,38.3,-83.9,26.1,-83.3,13.5C-82.7,0.9,-68.8,-12.1,-57.8,-22.3C-46.8,-32.5,-38.7,-40,-29.5,-49.1C-20.4,-58.2,-10.2,-68.9,-0.4,-68.3C9.3,-67.6,18.6,-55.4,29.5,-47.2Z;
+
+         M29.9,-49.1C39.8,-40.1,49.7,-33.7,56.6,-24.2C63.4,-14.7,67.4,-2.2,63.9,7.9C60.4,18,49.4,25.7,40.2,32.9C30.9,40.1,23.3,46.8,13,54.5C2.7,62.3,-10.4,71,-20.7,68.8C-31,66.5,-38.6,53.3,-48.4,41.9C-58.3,30.6,-70.5,21.3,-74.5,9.2C-78.5,-2.8,-74.4,-17.4,-66.6,-28.7C-58.7,-39.9,-47.3,-47.8,-35.6,-55.9C-23.8,-64.1,-11.9,-72.5,-1,-71C10,-69.5,20,-58,29.9,-49.1Z;
+
+         M33.7,-51.6C43.5,-46.1,51.3,-36.5,61.5,-24.9C71.8,-13.3,84.6,0.4,85.3,14C86.1,27.7,74.8,41.3,61.2,48C47.6,54.6,31.7,54.2,16.8,59.7C2,65.1,-11.9,76.3,-26.9,78.1C-42,79.9,-58.3,72.3,-62.4,58.9C-66.4,45.5,-58.1,26.3,-57,10.4C-55.9,-5.6,-62.1,-18.4,-59.5,-28.5C-56.9,-38.6,-45.6,-46,-34.3,-50.8C-22.9,-55.6,-11.5,-57.8,0.2,-58.1C11.9,-58.5,23.9,-57.1,33.7,-51.6Z;
+
+         M47.5,-72.9C62.5,-64.3,76.3,-52.7,82.2,-38.1C88.1,-23.4,86.1,-5.6,83.3,11.8C80.6,29.3,77,46.5,67.7,60.4C58.3,74.3,43.2,84.9,27.2,87.1C11.2,89.3,-5.7,83.1,-20.6,76C-35.5,69,-48.4,61.1,-53.5,49.5C-58.6,38,-55.7,22.8,-53.9,10.1C-52,-2.6,-51.1,-12.7,-48,-22.9C-44.9,-33.1,-39.6,-43.2,-31.2,-54.8C-22.8,-66.4,-11.4,-79.4,2.4,-83.2C16.3,-87,32.5,-81.5,47.5,-72.9Z;
+
+         M35.7,-58.8C44.8,-49.8,49.6,-37.3,58.1,-24.7C66.6,-12.2,78.9,0.5,76.4,10.3C74,20.2,56.9,27.3,44.4,34.4C31.9,41.4,24.1,48.4,13.6,55.7C3.2,63,-9.9,70.6,-23.4,70.8C-36.9,70.9,-50.8,63.5,-55.6,51.7C-60.4,39.9,-56,23.6,-55.6,9.5C-55.3,-4.6,-59,-16.6,-56.7,-27.7C-54.4,-38.8,-46.3,-49,-35.8,-57.4C-25.4,-65.8,-12.7,-72.4,0.3,-72.9C13.3,-73.4,26.7,-67.8,35.7,-58.8Z;
+
+         M37,-55.9C50.5,-48.9,65.8,-43,68.4,-32.6C71,-22.2,61,-7.4,54.2,4.5C47.3,16.4,43.6,25.5,38.1,34.4C32.5,43.3,25.2,51.9,15,58.3C4.7,64.6,-8.3,68.6,-18.8,65.1C-29.3,61.5,-37.4,50.4,-49.7,40.6C-62.1,30.8,-78.8,22.3,-79.9,11.7C-81.1,1.2,-66.7,-11.4,-59.7,-27.5C-52.7,-43.7,-53.1,-63.4,-44.3,-72.5C-35.6,-81.7,-17.8,-80.2,-3,-75.5C11.8,-70.8,23.5,-62.8,37,-55.9Z; 
+        
+         " 
+
+        ></animate>
+    </path>
+      </svg>
+
+
+
+</div>
+
+
+<div class="liquid-shape">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#12f7ff" transform="translate(100 100)">
+        <animate attributeName="d"
+        dur="20000ms"
+        repeatCount="indefinite"
+        values="
+         M37,-55.9C50.5,-48.9,65.8,-43,68.4,-32.6C71,-22.2,61,-7.4,54.2,4.5C47.3,16.4,43.6,25.5,38.1,34.4C32.5,43.3,25.2,51.9,15,58.3C4.7,64.6,-8.3,68.6,-18.8,65.1C-29.3,61.5,-37.4,50.4,-49.7,40.6C-62.1,30.8,-78.8,22.3,-79.9,11.7C-81.1,1.2,-66.7,-11.4,-59.7,-27.5C-52.7,-43.7,-53.1,-63.4,-44.3,-72.5C-35.6,-81.7,-17.8,-80.2,-3,-75.5C11.8,-70.8,23.5,-62.8,37,-55.9Z; 
+         
+         M27.6,-44C35.3,-38.1,40.6,-29.5,50.7,-19.6C60.8,-9.6,75.7,1.7,75.2,11.3C74.6,21,58.6,29,46.6,37.3C34.6,45.7,26.6,54.5,17.1,56.6C7.5,58.7,-3.5,54.2,-18.2,53.7C-32.9,53.2,-51.2,56.7,-58.2,49.8C-65.3,42.8,-61.1,25.5,-59.7,10.8C-58.3,-3.9,-59.8,-15.9,-58.3,-29.8C-56.9,-43.7,-52.6,-59.5,-42.5,-64.2C-32.3,-68.9,-16.1,-62.6,-3.1,-57.8C10,-53,20,-49.8,27.6,-44Z;
+
+         M29.5,-47.2C40.4,-38.9,52.9,-34.4,58.6,-25.7C64.3,-17,63.1,-4,63.7,11C64.4,26,67,43.1,61.3,57.4C55.6,71.7,41.7,83.2,27.6,81.8C13.4,80.4,-0.9,66.2,-15.3,58.9C-29.6,51.5,-43.9,51,-57.5,44.6C-71,38.3,-83.9,26.1,-83.3,13.5C-82.7,0.9,-68.8,-12.1,-57.8,-22.3C-46.8,-32.5,-38.7,-40,-29.5,-49.1C-20.4,-58.2,-10.2,-68.9,-0.4,-68.3C9.3,-67.6,18.6,-55.4,29.5,-47.2Z;
+
+         M29.9,-49.1C39.8,-40.1,49.7,-33.7,56.6,-24.2C63.4,-14.7,67.4,-2.2,63.9,7.9C60.4,18,49.4,25.7,40.2,32.9C30.9,40.1,23.3,46.8,13,54.5C2.7,62.3,-10.4,71,-20.7,68.8C-31,66.5,-38.6,53.3,-48.4,41.9C-58.3,30.6,-70.5,21.3,-74.5,9.2C-78.5,-2.8,-74.4,-17.4,-66.6,-28.7C-58.7,-39.9,-47.3,-47.8,-35.6,-55.9C-23.8,-64.1,-11.9,-72.5,-1,-71C10,-69.5,20,-58,29.9,-49.1Z;
+
+         M33.7,-51.6C43.5,-46.1,51.3,-36.5,61.5,-24.9C71.8,-13.3,84.6,0.4,85.3,14C86.1,27.7,74.8,41.3,61.2,48C47.6,54.6,31.7,54.2,16.8,59.7C2,65.1,-11.9,76.3,-26.9,78.1C-42,79.9,-58.3,72.3,-62.4,58.9C-66.4,45.5,-58.1,26.3,-57,10.4C-55.9,-5.6,-62.1,-18.4,-59.5,-28.5C-56.9,-38.6,-45.6,-46,-34.3,-50.8C-22.9,-55.6,-11.5,-57.8,0.2,-58.1C11.9,-58.5,23.9,-57.1,33.7,-51.6Z;
+
+         M47.5,-72.9C62.5,-64.3,76.3,-52.7,82.2,-38.1C88.1,-23.4,86.1,-5.6,83.3,11.8C80.6,29.3,77,46.5,67.7,60.4C58.3,74.3,43.2,84.9,27.2,87.1C11.2,89.3,-5.7,83.1,-20.6,76C-35.5,69,-48.4,61.1,-53.5,49.5C-58.6,38,-55.7,22.8,-53.9,10.1C-52,-2.6,-51.1,-12.7,-48,-22.9C-44.9,-33.1,-39.6,-43.2,-31.2,-54.8C-22.8,-66.4,-11.4,-79.4,2.4,-83.2C16.3,-87,32.5,-81.5,47.5,-72.9Z;
+
+         M35.7,-58.8C44.8,-49.8,49.6,-37.3,58.1,-24.7C66.6,-12.2,78.9,0.5,76.4,10.3C74,20.2,56.9,27.3,44.4,34.4C31.9,41.4,24.1,48.4,13.6,55.7C3.2,63,-9.9,70.6,-23.4,70.8C-36.9,70.9,-50.8,63.5,-55.6,51.7C-60.4,39.9,-56,23.6,-55.6,9.5C-55.3,-4.6,-59,-16.6,-56.7,-27.7C-54.4,-38.8,-46.3,-49,-35.8,-57.4C-25.4,-65.8,-12.7,-72.4,0.3,-72.9C13.3,-73.4,26.7,-67.8,35.7,-58.8Z;
+
+         M37,-55.9C50.5,-48.9,65.8,-43,68.4,-32.6C71,-22.2,61,-7.4,54.2,4.5C47.3,16.4,43.6,25.5,38.1,34.4C32.5,43.3,25.2,51.9,15,58.3C4.7,64.6,-8.3,68.6,-18.8,65.1C-29.3,61.5,-37.4,50.4,-49.7,40.6C-62.1,30.8,-78.8,22.3,-79.9,11.7C-81.1,1.2,-66.7,-11.4,-59.7,-27.5C-52.7,-43.7,-53.1,-63.4,-44.3,-72.5C-35.6,-81.7,-17.8,-80.2,-3,-75.5C11.8,-70.8,23.5,-62.8,37,-55.9Z; 
+        
+         " 
+
+        ></animate>
+    </path>
+      </svg>
+</div>
+</div>
+</section>
+<section id="about" class="about"> 
+<div class="img-about scroll-scale">
+    <img src="img/person1.webp" alt="">
+</div>
+<div class="about-content scroll-scale">
+    <span>Let me introduce myself </span>
+    <h2>About Me</h2>
+    <h3>A story of good</h3>
+    <p>My name is Kashaf Eman. I'm proficent in HTML ,CSS and Javascript and I'm trying to learn the React js and some other frame works.</p>
+    <h2 style="font-weight: 500;font-size:1.5rem">Work Experience</h2>
+    <p>I have a experience of one year from 2024 to 2025.</p>
+    <p> I have done my web development from Code Fusion Link & Technologies.</p>
+    <h2 style="font-weight: 500;font-size:1.5rem">Education</h2>
+    <p style="margin-bottom: 1.5rem;">I had  done my intermediate with good marks.After that I took addmission in university in software engineering department until continue from virtual university.</p>    
+<div class="btn-box">
+    <a href="#" class="btn">Read More!</a>
+</div>
+</div>
+
+
+</section>
+<section id="services" class="sevices">
+    <div class="main-text scroll-scale">
+<span>what i will do for you</span>
+<h2>Our Services</h2>
+ </div>
+
+<div class="sect-services scroll-bottom">
+    <div class="service-box">
+        <i class="fa-solid fa-layer-group service-icon"></i>
+        <h3>Web Designer</h3>
+        <p>Ensuring the website is responsive and performs well all devices.Transforming ideas into beautiful, functional websites that tell your story.</p>
+        <div class="btn-box service-btn">
+            <a href="#" class="btn">Read More!</a>
+        </div>
+    </div>
+
+    <div class="service-box">
+        <i class="fa-solid fa-desktop service-icon"></i>
+        <h3>Web Developer</h3>
+        <p>Turning complex ideas into clean, efficient, and high-performing code.Transforming your vision into a fully functioning, interactive website.</p>
+        <div class="btn-box service-btn">
+            <a href="#" class="btn">Read More!</a>
+        </div>
+    </div>
+
+    <div class="service-box">
+        <i class="fa-solid fa-code service-icon"></i>
+        <h3>API Integration</h3>
+        <p>Integration frontend with backend or APIs to fetch dynamic data.Unlock the full potential of your digital ecosystem with custom API integrations.</p>
+        <div class="btn-box service-btn">
+            <a href="#" class="btn">Read More!</a>
+        </div>
+    </div>
+    
+
+
+</div>
+
+
+</section>
+
+<section id="skills" class="skills">
+<div class="main-text scroll-scale">
+    <span>technical and professional</span>
+    <h2>My Skills</h2>
+</div>
+
+<div class="skill-main ">
+    <div class="skill-left scroll-scale">
+        <h3>Technical Skills</h3>
+<div class="skill-bar">
+<div class="info">
+    <p>HTML</p>
+    <p>92%</p>
+</div>
+<div class="bar">
+    <span class="html"></span>
+</div>
+</div>
+
+
+<div class="skill-bar">
+    <div class="info">
+        <p>CSS</p>
+        <p>85%</p>
+    </div>
+    <div class="bar">
+        <span class="css"></span>
+    </div>
+    </div>
+
+    <div class="skill-bar">
+        <div class="info">
+            <p>JavaScript</p>
+            <p>71%</p>
+        </div>
+        <div class="bar">
+            <span class="javascript"></span>
+        </div>
+        </div>
+
+        <div class="skill-bar">
+            <div class="info">
+                <p>jQuery</p>
+                <p>65%</p>
+            </div>
+            <div class="bar">
+                <span class="jquery"></span>
+            </div>
+            </div>
+
+
+
+    </div>
+    <div class="skill-right scroll-scale">
+    <h3>Professional Skills</h3>
+<div class="professional">
+<div class="box">
+<div class="circle"data-dots="80" data-percentage="90"></div>
+<div class="text">
+    <big>90%</big>
+   <small>Team Work</small>
+</div>
+</div>
+
+<div class="box">
+    <div class="circle"data-dots="80" data-percentage="80"></div>
+    <div class="text">
+        <big>80%</big>
+       <small>Creativity</small>
+    </div>
+    </div>
+
+    <div class="box">
+        <div class="circle"data-dots="80" data-percentage="55"></div>
+        <div class="text">
+            <big>55%</big>
+           <small>Project Management</small>
+        </div>
+        </div>
+
+        <div class="box">
+            <div class="circle"data-dots="80" data-percentage="70"></div>
+            <div class="text">
+                <big>70%</big>
+               <small>Communication</small>
+            </div>
+            </div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="portfolio" class="portfolio">
+<div class="main-text scroll-scale">
+    <span>what i will for you</span>
+    <h2>Latest Portfolio</h2>
+</div>
+<div class="container">
+    <div class="filter-btn scroll-scale">
+        <button class="button" data-filter="all">All</button>
+        <button class="button"data-filter=".css">Html & CSS</button>
+        <button class="button" data-filter=".javascript">JavaScript</button>
+        <button class="button"data-filter=".jQuery">jQuery</button>
+    </div>
+
+<div class="portfolio-gallery scroll-bottom">
+<div class="port-box mix jQuery">
+<div class="port-img">
+    <img src="img/img1.jpg" alt="">
+</div>
+<div class="port-content">
+    <h3>Web Design</h3>
+    <P>This is website in which html,css and jquery are used to show the complete website.</P>
+<a href="https://kashf-eman.github.io/cake_website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</div>
+</div>
+
+<div class="port-box mix css">
+    <div class="port-img">
+        <img src="img/img8.webp" alt="">
+    </div>
+    <div class="port-content">
+        <h3>Bootstrap Design</h3>
+        <P>This is website in which Bootstrap framework are used to show the web designing.</P>
+    <a href="https://kashf-eman.github.io/tidy-website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    </div>
+
+
+    <div class="port-box mix javascript">
+        <div class="port-img">
+            <img src="img/img3.jpg" alt="">
+        </div>
+        <div class="port-content">
+            <h3>Image Search Engine</h3>
+            <P>This is website in which you can search and download image like image search engine</P>
+        <a href="https://kashf-eman.github.io/ImageSearchEngine/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+
+
+        <div class="port-box mix javascript">
+            <div class="port-img">
+                <img src="img/img4.jpg" alt="">
+            </div>
+            <div class="port-content">
+                <h3>Todo App</h3>
+                <P>This is website or app in which html, css, javascript & APIs are used to show the todo in website or app.</P>
+            <a href="https://kashf-eman.github.io/Todo-app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+
+            <div class="port-box mix javascript">
+                <div class="port-img">
+                    <img src="img/img5.avif" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Youtube Clone</h3>
+                    <P>This is clone in which API are used to handle the data. This clone is work like a youtube, In this you can search anything.</P>
+                <a href="https://kashf-eman.github.io/youtube-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+
+
+                <div class="port-box mix javascript">
+                    <div class="port-img">
+                        <img src="img/img6.avif" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Code Editor</h3>
+                        <P>This is website in which you can write code html ,css and js</P>
+                    <a href="https://kashf-eman.github.io/CodeEditor/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+
+
+
+</div>
+</div>
+
+</section>
+
+
+
+
+<section id="contact"class="contact">
+    <div class="main-text scroll-scale">
+        <span>ask me question</span>
+        <h2>Contact Me</h2>
+         </div>
+<form action="https://api.web3forms.com/submit" method="POST" class="scroll-bottom">
+    <input type="hidden" name="access_key" value="20d47cfb-fd0b-4ad8-b74f-52a7834985be">
+<input type="text"placeholder="Your Name" id="name" name="name">
+<input type="text"placeholder="Your Email"id="email" name="email">
+<input type="text"placeholder="Your Address" id="address"name="address">
+<input type="number"placeholder="Phone Number" id="phone"name="number">
+<textarea name="message" id="msgs"placeholder="Your Message" cols="30" row="10"></textarea>
+<div class="btn-box formbtn">
+    <button type="submit"class="btn">Send Message</button>
+</div>
+
+
+
+</form>
+
+</section>
+
+
+<footer>
+    <div class="social-icon icons scroll-scale">
+        <a href="https://www.facebook.com/profile.php?id=61573544997852"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <!-- <a href="https://wa.me/03154144362"target="_blank"><i class="fa-brands fa-whatsapp"></i></a> -->
+        <a href="https://www.instagram.com/kashafeman0.0"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>  
+</footer>
+<a href="#top"><div class="fixed"><i class="fa-solid fa-chevron-up"></i></div></a>
+
+</body>
+<script src="mixitup.min.js"></script>
+<script src="script.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+        if ($(window).scrollTop() >150) { 
+            $('.fixed').css('display', 'block'); 
+        } else {
+            $('.fixed').css('display', 'none'); 
+        }
+    });
+
+
+
+
+
+
+
+    })
+    </script>
+
+<!-- <script>
+    function download(file) {
+        var link=document.getElementById("download");
+        link.setAttribute("download",file);
+        link.click()
+        
+    }
+</script> -->
+<!-- <script>
+    document.getElementById('download').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+        fetch('index.html')
+            .then(response => response.text())
+            .then(html => {
+                const blob = new Blob([html], { type: 'text/html' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'index.html';
+                a.style.display = 'none';
+                document.body.appendChild(a);
+                a.click();
+                URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+            });
+    });
+</script> -->
+
+
+</html>
